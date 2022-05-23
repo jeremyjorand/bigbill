@@ -1,9 +1,10 @@
 import SAvatar from "./style";
+import avatar from "@assets/riche.png";
 
 export default function Wallet() {
   return (
     <SAvatar>
-      <img src="src/assets/riche.png"></img>
+      <img src={avatar}></img>
     </SAvatar>
   );
 }
