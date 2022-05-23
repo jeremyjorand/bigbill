@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import billet from "@assets/billet.png";
 
 export default styled.div`
   position: fixed;
@@ -13,7 +14,7 @@ export default styled.div`
     font-size: 50px;
     text-shadow: 5px 5px 5px #000000;
     font-weight: bold;
-    background: url("src/assets/billet.png");
+    background: url(${billet});
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
