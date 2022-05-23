@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <SHome>
         <div className="start">
-          <h1>Bienvenueeeeee chez Big Bill ! </h1>
+          <h1>Bienvenue chez Big Bill ! </h1>
           <ul>
             <p>Règles du jeu :</p>
             <li>Vous démarrez avec 400 000 €</li>
